@@ -1,31 +1,31 @@
-body { background: #efefef; margin: 0; }
-a { color: inherit; text-decoration: none; }
-* { margin: 0; padding: 0; }
-hr { height: 0; border: none; border-top: 1px solid #dedede; }
-ul, ol { list-style: none; }
-h1,h2,h3,h4,h5,h6{ font-weight: normal; }
+  body { background: #efefef; margin: 0; }
+  a { color: inherit; text-decoration: none; }
+  * { margin: 0; padding: 0; }
+  hr { height: 0; border: none; border-top: 1px solid #dedede; }
+  ul, ol { list-style: none; }
+  h1,h2,h3,h4,h5,h6{ font-weight: normal; }
 
-img{   width: auto;  height: auto;  max-width: 100%;  max-height: 100%;    }  
-.clearfix::after { content: ''; display: block; clear: both; }
+  img{   width: auto;  height: auto;  max-width: 100%;  max-height: 100%;    }  
+  .clearfix::after { content: ''; display: block; clear: both; }
 
-[data-x].active{
-  outline: 10px solid red;
-}
-[data-x].offset{
-  transform: translateY(100px);
-}
-[data-x]{
-  transform: translateY(0);
-  transition: all 0.5s;
-}
-@keyframes slideUp{
-  0%{
-    transform: translateY(-30px);
+  [data-x].active{
+    outline: 10px solid red;
   }
-  100%{
-    transform: translateY(0);
+  [data-x].offset{
+    transform: translateY(120px);
   }
-}
+  [data-x]{
+    transform: translateY(0px);
+    transition: all 0.6s;
+  }
+  @keyframes slideUp{
+    0%{
+      transform: translateY(-30px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
 .topNavBar { padding: 20px 0; position: fixed; top: 0; left: 0; width: 100%; 
   transition: all 0.5s; color: #b7b7b7;
 }
@@ -87,7 +87,7 @@ img{   width: auto;  height: auto;  max-width: 100%;  max-height: 100%;    }
 .topNavBar .logo { font-size: 24px; font-family: 'Arial Black'; padding-top: 3px; padding-bottom: 4px; }
 .topNavBar .logo .rs { margin-right: 4px; color: #e6686a; }
 .topNavBar .logo .card { color: #9a9da2; }
-.banner { height: 800px; background-image: url(./image/rain.jpg); background-position: center center; background-size: cover; }
+.banner { height:600px; background-image: url(./image/rain.jpg); background-position: center center; background-size: cover; }
 .banner .mask { height: 515px; background-color: rgba(0, 0, 0, 0.00001); }
 
 .userCard { max-width: 940px; margin-left: auto; margin-right: auto; background-color: #ffffff; box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); background-image: url('./image/yin.jpg') ;
@@ -99,7 +99,6 @@ background-size:cover;background-position: center center;color: white;border: 10
 .userCard .text { float: left; margin-top: 250px; width: 250px; background: black;border: 2px solid white;border-radius: 5px 5px 5px 0;}
 .userCard .text h1 { margin-top: 18px; }
 .userCard .text hr { margin: 20px 0; }
-.userCard .pictureAndText { }
 .userCard dl dt, .userCard dl dd { float: left; padding: 5px 0; }
 .userCard dl dt { width: 30%; font-weight: bold; }
 .userCard dl dd { width: 70%; color: #9da0a7; }
@@ -109,8 +108,8 @@ background-size:cover;background-position: center center;color: white;border: 10
   border-radius: 50%; margin: 16px; }
 .userCard > footer.media > a:hover { background: #c2bfbf; }
 .userCard svg { width: 30px; height: 30px; fill: rgb(20, 18, 18); vertical-align: top; }
-body > main { margin-top: -440px; }
-body > main .downloadResume-wrapper { text-align: center; }
+body > main { margin-top:-320px; }
+body > main .downloadResume-wrapper { text-align: center;margin-top:50px; }
 body > main .downloadResume { font-size: 14px; line-height: 16px; padding: 21px 70px; border: 1px solid #cdcfd1; background: white;
   display: inline-block; border-radius: 2px; color: #3d4451; font-weight: bold; margin: 32px 0; transition: box-shadow 0.4s; }
 
@@ -118,7 +117,7 @@ body > main .downloadResume:hover {
   box-shadow: 1px 4px 23px 0px rgba(0, 0, 0, 0.5);
 }
 
-.selfIntroduction { max-width: 940px; margin-left: auto; margin-right: auto; text-align: center;font-family:KaiTi; line-height: 1.8; font-size:20px; }
+.selfIntroduction { max-width: 940px; margin-left: auto; margin-right: auto;margin-top:50px; text-align: center;font-family:KaiTi; line-height: 1.8; font-size:20px; }
 
 section.skills,
 section.portfolio{ max-width: 940px; margin-left: auto; margin-right: auto; margin-top: 60px; }
