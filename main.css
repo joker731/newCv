@@ -26,10 +26,10 @@
       transform: translateY(0px);
     }
   }
-.topNavBar { padding: 20px 0; position: fixed; top: 0; left: 0; width: 100%; 
-  transition: all 0.5s; color: #b7b7b7;
+.topNavBar { padding: 20px 0; position: fixed; top: 0; left: 0; ; 
+  transition: all 0.5s; color: #b7b7b7;width:100%;
 }
-.topNavBar.sticky{background: white;padding: 10px 0; z-index: 1;
+.topNavBar.sticky{background: white;padding: 10px 0; z-index: 1;width:100%;
   box-shadow: 0 0 10px rgba(0,0,0,0.25);color: #3d4451;
 }
 .topNavBar-inner { padding: 0 16px; }
@@ -87,7 +87,7 @@
 .topNavBar .logo { font-size: 24px; font-family: 'Arial Black'; padding-top: 3px; padding-bottom: 4px; }
 .topNavBar .logo .rs { margin-right: 4px; color: #e6686a; }
 .topNavBar .logo .card { color: #9a9da2; }
-.banner { height:600px; background-image: url(./image/rain.jpg); background-position: center center; background-size: cover; }
+.banner { height:600px; background-image: url(./image/rain.jpg); background-position: center center; background-size: cover;margin: 0 auto; }
 .banner .mask { height: 515px; background-color: rgba(0, 0, 0, 0.00001); }
 
 .userCard { max-width: 940px; margin-left: auto; margin-right: auto; background-color: #ffffff; box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); background-image: url('./image/yin.jpg') ;
@@ -108,7 +108,7 @@ background-size:cover;background-position: center center;color: white;border: 10
   border-radius: 50%; margin: 16px; }
 .userCard > footer.media > a:hover { background: #c2bfbf; }
 .userCard svg { width: 30px; height: 30px; fill: rgb(20, 18, 18); vertical-align: top; }
-body > main { margin-top:-320px; }
+body > main { margin-top:-320px;}
 body > main .downloadResume-wrapper { text-align: center;margin-top:50px; }
 body > main .downloadResume { font-size: 14px; line-height: 16px; padding: 21px 70px; border: 1px solid #cdcfd1; background: white;
   display: inline-block; border-radius: 2px; color: #3d4451; font-weight: bold; margin: 32px 0; transition: box-shadow 0.4s; }
